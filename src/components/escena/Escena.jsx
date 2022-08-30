@@ -1,7 +1,13 @@
+import { Param } from "../styledComponents/P"
 
 
-export const Escena = () => {
+export const Escena = (promps) => {
+    
   return (
-    <div>El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial</div>
+<>
+<Param num={promps.num} counter={promps.counter}>{promps.text}</Param> 
+
+</>
+   
   )
 }
